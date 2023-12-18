@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
     <category>
-        <pattern>JAK SE V MORSEOVCE PISE K</pattern>
-        <pattern>JAK SE V MORZEOVCE PISE K</pattern>
-        <template></template>
+        <pattern>JAK V MORSEOVCE NAPSAT K</pattern>
+        <template>Čárka tečka čárka, pomocné slovo pro zapamatování je "krákorá".</template>
+    </category>
+    <category>
+        <pattern>JAK V MORSEOVCE NAPSAT O</pattern>
+        <template>Čárka čárka čárka, pomocné sousloví pro zapamatování je "ó náš pán".</template>
+    </category>
+    <category>
+        <pattern>JAK V MORSEOVCE NAPSAT S</pattern>
+        <template>Tečka tečka tečka, pomocné slovo pro zapamatování je "sekera", také se používá "sobota".</template>
     </category>
     <category>
         <pattern>*</pattern>
